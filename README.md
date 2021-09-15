@@ -32,7 +32,7 @@ This will do a couple of things.
 * Updating package.json.
 * Creating lerna.json.
 
-The `/packages` folder is where all of your packages belong. Let's go about making a new package `aa-alpha`.
+The `/packages` folder is where all of your packages belong. Let's go about making a new package `alpha`.
 
 ```
 cd packages
@@ -42,7 +42,7 @@ yarn init -y
 echo "module.exports = 'aa-alpha'" > index.js
 ```
 
-Lets go through the same steps for another package `aa-beta`.
+Lets go through the same steps for another package `beta`.
 
 First go up one directory:
 
@@ -59,7 +59,7 @@ yarn init -y
 echo "module.exports = 'aa-beta'" > index.js
 ```
 
-Now we're going to create a `usage` package that uses both `aa-alpha` and `aa-beta` as dependencies.
+Now we're going to create a `usage` package that uses both `alpha` and `beta` as dependencies.
 
 First go up one directory:
 
